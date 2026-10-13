@@ -1,14 +1,32 @@
-# Практична робота №1 — Git
+### Java Template Repository
 
-## 1. Перевірка Git
+### compile
 
-```bash
-git --version
+```shell
+mvn compile
+```
 
-## Відповіді на запитання
+### clean
 
-1. `git log` показує, хто і в якій послідовності створював коміти, тобто допомагає побачити історію змін.
+```shell
+mvn clean
+```
 
-2. `git diff` показує, що саме змінилося між станами файлів або комітами.
+### test
 
-3. Проблема поєднання роботи кількох людей не має повного розв'язку аж до заняття 10.
+```shell
+mvn test
+```
+
+### reformat code
+
+```shell
+mvn spotless:apply
+```
+
+### check formatting
+
+```shell
+mvn spotless:check
+```
+
