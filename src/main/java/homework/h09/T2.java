@@ -3,7 +3,6 @@ package homework.h09;
 import java.util.ArrayList;
 import java.util.List;
 
-// Kids With the Greatest Number of Candies
 // https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
 
 public class T2 {
