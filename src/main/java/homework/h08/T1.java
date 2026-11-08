@@ -1,6 +1,5 @@
 package homework.h08;
 
-// base
 // https://leetcode.com/problems/max-consecutive-ones/
 
 public class T1 {
