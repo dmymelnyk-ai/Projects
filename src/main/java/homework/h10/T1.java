@@ -1,23 +1,25 @@
 package homework.h10;
 
-class T1 {
-    public char kthCharacter(int k) {
-        String word = "a";
+// https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/
 
-        while (word.length() < k) {
-            int length = word.length();
+public class T1 {
+  public char kthCharacter(int k) {
+    String word = "a";
 
-            for (int i = 0; i < length; i++) {
-                char c = word.charAt(i);
+    while (word.length() < k) {
+      int length = word.length();
 
-                if (c == 'z') {
-                    word += 'a';
-                } else {
-                    word += (char) (c + 1);
-                }
-            }
+      for (int i = 0; i < length; i++) {
+        char c = word.charAt(i);
+
+        if (c == 'z') {
+          word += 'a';
+        } else {
+          word += (char) (c + 1);
         }
-
-        return word.charAt(k - 1);
+      }
     }
+
+    return word.charAt(k - 1);
+  }
 }
