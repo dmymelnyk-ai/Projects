@@ -37,3 +37,6 @@ mvn spotless:check
 
 ### Ліцензія
 MIT
+
+### Ліцензія
+MIT
